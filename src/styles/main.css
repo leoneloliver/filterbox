@@ -321,11 +321,15 @@ footer{
 
 }
 @media only screen and (max-width: 500px){
-  .only-desktop{
+  .only-desktop,.email{
     display: none;
   }
   .only-mobile{
     display: block;
+  }
+  .main-content{
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media only screen and (max-width: 360px){
