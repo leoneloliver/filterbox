@@ -278,6 +278,9 @@ footer{
   color: #fff;
   cursor: pointer;
 }
+.add-new a{
+  color: #fff ;
+}
 .only-mobile{
   display: none;
 }

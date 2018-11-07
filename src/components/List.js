@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import SearchBar from './SearchBar'
 import styles from '../styles/main.css'
 import axios from 'axios'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 
 class List2 extends Component {
@@ -76,7 +77,11 @@ class List2 extends Component {
 
           </table>
         </div>
-        <div className={styles['add-new']}>&#10010;</div>
+        <div className={styles['add-new']}>
+          <Link to="/Channel">
+            &#10010;
+          </Link>
+        </div>
       </div>
     </div>
     );
