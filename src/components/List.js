@@ -14,8 +14,6 @@ class List2 extends Component {
     }
   }
 
-  
-
   // componentDidMount(){
   //   axios.get('https://api.myjson.com/bins/hraj4')
   //   .then(json => json.data.map(result => (
@@ -29,7 +27,8 @@ class List2 extends Component {
   // }
 
   componentDidMount(){
-    axios.get('https://randomuser.me/api/?results=50')
+    // axios.get('https://randomuser.me/api/?results=50')
+    axios.get('https://api.myjson.com/bins/1b7s8m')
     .then(json => json.data.results.map(result => (
       {
         name: `${result.name.first} ${result.name.last}`,       

@@ -92,6 +92,9 @@ ul li{
 ul li:hover, ul li:focus, ul li:active{
   background: #2c93f5;
 }
+ul li a{
+  color: #fff;
+}
 a{
   color: #9c9c9c;
   text-decoration: none;
@@ -152,7 +155,7 @@ tr:nth-child(even) {
 .city{
   text-transform: capitalize;
 }
-.email{
+.email, .simple-text{
   color: #9c9c9c;
 }
 .tool-bar {
@@ -277,6 +280,9 @@ footer{
 }
 .only-mobile{
   display: none;
+}
+.comment{
+  width: 100%;
 }
 @media only screen and (max-width: 800px){
   .aside{
