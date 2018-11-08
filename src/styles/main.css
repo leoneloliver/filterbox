@@ -55,8 +55,8 @@ code {
   background: #efefef;
 }
 .bg-white{
-  background: #fff;
-  padding-top: 15px;
+  /*background: #fff;
+  padding-top: 15px;*/
 }
 .aside{
   flex: 1 0 0;
