@@ -25,7 +25,7 @@ const MyLoader = props => (
 class Channel extends Component {  
   render() {
     return (
-      <div className={styles['main-content']}>
+      <div className={`${styles['main-content']} ${styles['bg-white']}`}> 
         <div>
           <div className={styles['title-page']}>
             <h2>Channel</h2>
