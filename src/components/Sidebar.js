@@ -12,9 +12,16 @@ class Sidebar extends Component {
           <li>
             <Link to="/Channel">&#9839; General</Link>
           </li>
-          <li>&#9839; Product</li>
-          <li>&#9839; Random</li>
-          <li>&#9839; UX</li>
+          <li>
+            <Link to="/Channel">&#9839; Product</Link>
+          </li>
+          <li>
+            <Link to="/Channel">&#9839; Random</Link>
+          </li>
+          <li>
+            <Link to="/Channel">&#9839; UI/UX</Link>
+          </li>
+          
         </ul>
         <div className={styles['pl-10']}>All Lists <span className={styles['icon-plus']}>&#10010;</span></div>
         <ul>
